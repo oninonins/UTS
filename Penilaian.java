@@ -17,7 +17,7 @@ public class Penilaian {
         this.nilaiUAS = nilaiUAS;
     }
 
-    hitungNilaiAkhir() {
+    void hitungNilaiAkhir() {
         this.nilaiAkhir = (0.3 * nilaiTugas) + (0.3 * nilaiUTS) + (0.4 * nilaiUAS);
     }
      
